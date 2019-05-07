@@ -1,0 +1,13 @@
+Waktu,Paket,Frekuensi,Prioritas,Kelas
+Pendek,Besar,Sedang,Rendah,Gangguan
+Pendek,Kecil,Tinggi,Rendah,Normal
+Pendek,Kecil,Sedang,Tinggi,Gangguan
+Pendek,Kecil,Tinggi,Rendah,Normal
+Pendek,Kecil,Sedang,Tinggi,Normal
+Panjang,Besar,Sedang,Rendah,Normal
+Panjang,Kecil,Tinggi,Tinggi,Gangguan
+Pendek,Besar,Sedang,Rendah,Normal
+Panjang,Kecil,Rendah,Tinggi,Normal
+Pendek,Kecil,Tinggi,Tinggi,Normal
+Panjang,Besar,Tinggi,Tinggi,Normal
+Panjang,Kecil,Rendah,Tinggi,Normal
