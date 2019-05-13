@@ -1,0 +1,21 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="paket <= 1.5\nentropy = 0.764\nsamples = 9\nvalue = [2, 7]\nclass = Normal", fillcolor="#72b9ec"] ;
+1 [label="waktu <= 0.5\nentropy = 0.863\nsamples = 7\nvalue = [2, 5]\nclass = Normal", fillcolor="#88c4ef"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="prioritas <= 0.5\nentropy = 0.811\nsamples = 4\nvalue = [1, 3]\nclass = Normal", fillcolor="#7bbeee"] ;
+1 -> 2 ;
+3 [label="entropy = 0.0\nsamples = 1\nvalue = [1, 0]\nclass = Gangguan", fillcolor="#e58139"] ;
+2 -> 3 ;
+4 [label="entropy = 0.0\nsamples = 3\nvalue = [0, 3]\nclass = Normal", fillcolor="#399de5"] ;
+2 -> 4 ;
+5 [label="prioritas <= 0.5\nentropy = 0.918\nsamples = 3\nvalue = [1, 2]\nclass = Normal", fillcolor="#9ccef2"] ;
+1 -> 5 ;
+6 [label="entropy = 0.0\nsamples = 2\nvalue = [0, 2]\nclass = Normal", fillcolor="#399de5"] ;
+5 -> 6 ;
+7 [label="entropy = 0.0\nsamples = 1\nvalue = [1, 0]\nclass = Gangguan", fillcolor="#e58139"] ;
+5 -> 7 ;
+8 [label="entropy = 0.0\nsamples = 2\nvalue = [0, 2]\nclass = Normal", fillcolor="#399de5"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}

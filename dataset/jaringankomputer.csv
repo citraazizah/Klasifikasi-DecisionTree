@@ -1,4 +1,4 @@
-Waktu,Paket,Frekuensi,Prioritas,Kelas
+waktu,prioritas,paket,frekuensi,class
 Pendek,Besar,Sedang,Rendah,Gangguan
 Pendek,Kecil,Tinggi,Rendah,Normal
 Pendek,Kecil,Sedang,Tinggi,Gangguan
